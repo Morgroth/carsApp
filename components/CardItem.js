@@ -5,7 +5,7 @@ const CardItem = ({avatar,name,country,email,vehicle}) => {
     console.log('CardItem called')
     return(
         <View>
-            <Image source={faker.image.transport()}/>
+            <Image source={avatar}/>
             <View>
                 <View>
                 <Text>{name}</Text>
